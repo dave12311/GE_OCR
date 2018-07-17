@@ -21,4 +21,5 @@ for file in glob.glob("*.psd"):
 				os.rename(file, text + ".psd")
 			except OSError:
 				print("File ", file, " already exists with code ", text)
+print("Done.")
 os.system("pause")
