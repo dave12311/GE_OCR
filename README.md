@@ -5,7 +5,7 @@
    - Add Tesseract folder to `PATH`
    - Create system variable `TESSDATA_PREFIX` pointing to `/Tesseract-OCR/tessdata`
    - Copy the **GE** config file to `/Tesseract-OCR/tessdata/configs`
-- Install Python libraries (3.6)
+- Install Python (3.6) libraries
    ```
    pip install psd-tools
    pip install Pillow
