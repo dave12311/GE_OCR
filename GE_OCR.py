@@ -17,6 +17,9 @@ for file in glob.glob("*.psd"):
 			text = text.replace("-", "")
 			#cropped.save(text + ".png")
 			print(text)
+			f = open(str(text)+".txt","w")
+			f.write(str(file))
+			f.close()
 			try:
 				os.rename(file, text + ".psd")
 			except OSError:
